@@ -2,10 +2,21 @@
 Input: a List of integers
 Returns: a List of integers
 '''
-def product_of_all_other_numbers(arr):
-    # Your code here
 
-    pass
+import numpy as np ???
+
+def product_of_all_other_numbers(arr):
+    # create placeholders for elements before and after element x
+    # loop through the array
+    # on first iteration splice elements after into after, then multiply and replace first element
+    # each iteration until last splice elements before and after, then multiplay and replace element
+    # on last iteration splice elements before, then multiply and replace
+    new_arr = [0]*len(arr)
+    for i in range(len(arr)):
+        if i == 0:
+   
+
+    return new_arr
 
 
 if __name__ == '__main__':
